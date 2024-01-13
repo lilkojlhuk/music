@@ -1,0 +1,42 @@
+.player {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+
+    &__pause {
+        cursor: pointer;
+        font-size: 28px;
+    }
+
+    &__play {
+        cursor: pointer;
+        font-size: 28px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    &__left {
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+    }
+
+    &__right {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__volume{
+        font-size: 18px;
+    }
+}

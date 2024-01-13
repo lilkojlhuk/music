@@ -1,0 +1,9 @@
+.trackProgress {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+    &__input {
+        cursor: pointer;
+    }
+}

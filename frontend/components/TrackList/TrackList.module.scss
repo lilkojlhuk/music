@@ -1,0 +1,54 @@
+.trackitem {
+    &__pause {
+        font-size: 28px;
+    }
+
+    &__play {
+        font-size: 28px;
+    }
+
+    &__delete {
+        font-size: 28px;
+    }
+
+    &__img {
+        max-width: 100px;
+    }
+
+    &__list {
+        margin: 50px 0 10px 0;
+    }
+
+    &__item {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    &__timer {
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+    }
+}
+
+.tracklist{
+    margin-bottom: 100px;
+}
